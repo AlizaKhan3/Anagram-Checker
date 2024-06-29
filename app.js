@@ -18,7 +18,8 @@ function getValue() {
       document.getElementById("result").textContent = swal("Opps!", "They are not Anagram!", "error");
       return;
     }
-   
+ // console.log(arr1);
+// console.log(arr2);
   }
   document.getElementById("result").textContent = swal("Good job!", "They are Anagram!", "success");
 
