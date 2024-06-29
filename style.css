@@ -3,33 +3,28 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
 .my-container {
     background: linear-gradient(30deg, rgb(51, 0, 50), rgb(1, 13, 31));
     margin-top: 100px;
     padding: 60px;
     border-radius: 20px;
 }
-
 .heading {
     margin-bottom: 40px;
     font-size: 38px;
     font-weight: bolder;
     color: white;
 }
-
 .wordInput {
     margin: 20px 0px;
     -webkit-box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.37);
     -moz-box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.37);
     box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.37);
 }
-
 .btn-theme {
     margin-top: 30px;
     font-size: 24px;
 }
-
 @media only screen and (max-width:576px) {
     .my-container {
         margin-top: 120px;
